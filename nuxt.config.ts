@@ -90,6 +90,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     compressPublicAssets: true,
+    preset: 'vercel'
   },
   unocss: {
     // for presets, theme config, ... look at the uno.config.ts file
